@@ -20,7 +20,8 @@ export class TimelineView {
     }
 
     init() {
-        this.content.style.width = `${totalWidth}px`;
+        // Add 200px to the total width to ensure the last nodes (with long text) are fully scrollable
+        this.content.style.width = `${totalWidth + 200}px`;
         this.renderGrid();
         this.bindEvents();
 
@@ -165,28 +166,6 @@ export class TimelineView {
             this.container.scrollLeft = this.scrollLeft - walk;
         });
 
-        // Panning (Drag) - Touch
-        this.container.addEventListener('touchstart', (e) => {
-            this.isDragging = true;
-            this.startX = e.touches[0].pageX - this.container.offsetLeft;
-            this.scrollLeft = this.container.scrollLeft;
-        }, { passive: true });
-
-        this.container.addEventListener('touchend', () => {
-            this.isDragging = false;
-        });
-
-        this.container.addEventListener('touchcancel', () => {
-            this.isDragging = false;
-        });
-
-        this.container.addEventListener('touchmove', (e) => {
-            if (!this.isDragging) return;
-            const x = e.touches[0].pageX - this.container.offsetLeft;
-            const walk = (x - this.startX) * 1.5; // Drag speed multiplier
-            this.container.scrollLeft = this.scrollLeft - walk;
-        }, { passive: true });
-
         // Zooming (Scroll)
         this.container.addEventListener('wheel', (e) => {
             if (e.ctrlKey || e.metaKey) {
@@ -210,10 +189,6 @@ export class TimelineView {
 
                 // Adjust scroll position after scaling
                 this.container.scrollLeft = (contentXBefore * this.scale) - mouseX;
-            } else if (e.deltaY !== 0) {
-                // If not zooming, translate vertical scroll to horizontal scroll
-                e.preventDefault();
-                this.container.scrollLeft += e.deltaY;
             }
         }, { passive: false });
     }

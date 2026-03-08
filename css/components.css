@@ -248,6 +248,8 @@
         bottom: 10px;
         right: 10px;
         padding: 16px;
+        max-height: 80vh;
+        overflow-y: auto;
     }
 
     .panel-header h2 {
@@ -256,6 +258,8 @@
 
     .species-modal-content {
         padding: 1.25rem;
+        max-height: 90vh;
+        overflow-y: auto;
     }
 
     .modal-text h3 {

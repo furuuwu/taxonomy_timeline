@@ -3,9 +3,21 @@
     background-color: var(--bg-timeline);
     position: relative;
     cursor: grab;
-    overflow: hidden;
-    touch-action: none;
+    overflow-x: auto;
+    overflow-y: auto;
+    touch-action: pan-x pan-y;
     /* We implement our own pan/zoom logic */
+}
+
+/* Hide scrollbars for cleaner timeline look */
+.timeline-wrapper::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.timeline-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
 }
 
 .timeline-wrapper:active {
@@ -16,7 +28,9 @@
     position: absolute;
     top: 40px;
     left: 0;
-    height: calc(100% - 40px);
+    /*min-height: calc(100% - 40px);*/
+    /*padding-bottom: 40px;*/
+    min-height: calc(100% - 60px);
     transform-origin: 0 0;
     will-change: transform;
 }
