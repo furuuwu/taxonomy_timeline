@@ -146,10 +146,6 @@ Crucialmente, esta descoberta teórica rompeu com o "pensamento em escada" de La
 
 Após esta revelação, biólogos alemães como Ernst Haeckel e August Wilhelm Eichler iniciaram a árdua tarefa de construir as primeiras árvores evolutivas formais. Haeckel chegou mesmo a cunhar o termo "filogenia" para descrever este novo foco na história evolutiva. A teoria da evolução forneceu o "elo oculto" da descendência genealógica, mas, como os taxonomistas viriam a descobrir em breve, traduzir esta história complexa e ramificada num sistema de classificação formal e estruturado desencadearia décadas de intensa guerra metodológica.
 
-Eis o Capítulo 5. Nesta secção, aprofundamos as guerras metodológicas de meados do século XX, expandindo consideravelmente a ascensão e queda do movimento fenético, utilizando o contexto histórico recentemente acrescentado.
-
----
-
 ## **Capítulo 5: As Três Escolas da Taxonomia**
 
 Após a introdução da evolução orgânica por Charles Darwin, o "elo oculto" que ligava todos os seres vivos foi finalmente entendido como sendo a descendência genealógica. No entanto, reconhecer que a vida evoluiu como uma árvore ramificada foi apenas metade da batalha. O próximo grande desafio para os sistematas era determinar como traduzir com precisão esta história evolutiva complexa e irregularmente ramificada numa classificação biológica formal e estruturada.

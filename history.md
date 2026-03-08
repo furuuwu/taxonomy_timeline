@@ -146,10 +146,6 @@ Crucially, this theoretical breakthrough shattered Lamarck's "ladder thinking" a
 
 Following this revelation, German biologists like Ernst Haeckel and August Wilhelm Eichler began the arduous task of constructing the first formal evolutionary trees. Haeckel even established the term "phylogeny" to describe this new focus on evolutionary history. The theory of evolution provided the "hidden bond" of genealogical descent, but as taxonomists would soon discover, translating this messy, branching history into a formal, structured classification system would spark decades of intense methodological warfare.
 
-Here is Chapter 5. In this section, we delve into the mid-20th-century methodological wars, heavily expanding on the rise and fall of the phenetics movement using the newly added historical context.
-
----
-
 ## **Chapter 5: The Three Schools of Taxonomy**
 
 Following Charles Darwin's introduction of organic evolution, the "hidden bond" connecting all living things was finally understood to be genealogical descent. However, recognizing that life evolved as a branching tree was only half the battle. The next major challenge for systematists was determining how to accurately translate this messy, irregularly branching evolutionary history into a formal, structured biological classification.
