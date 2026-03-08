@@ -91,6 +91,8 @@
     flex: 1;
     display: flex;
     overflow: hidden;
+    min-width: 0;
+    min-height: 0;
 }
 
 /* Tab Controls */
@@ -129,8 +131,70 @@
     /* hidden by default */
     width: 100%;
     height: 100%;
+    min-width: 0;
+    min-height: 0;
 }
 
 .view-container.active {
     display: flex;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .app-header {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+        gap: 15px;
+        position: relative;
+        /* Anchor the absolute language toggle */
+        width: 100%;
+        min-width: 0;
+    }
+
+    .header-content {
+        width: 100%;
+        max-width: 100%;
+        padding-top: 35px;
+        /* Space for the absolute language toggle ABOVE the title */
+        min-width: 0;
+    }
+
+    .header-content h1 {
+        font-size: 1.35rem;
+        word-wrap: break-word;
+        word-break: break-word;
+        white-space: normal;
+        line-height: 1.3;
+        /* Force text to break and wrap properly without fighting the toggle */
+    }
+
+    .subtitle {
+        font-size: 0.8rem;
+    }
+
+    .tab-controls {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 5px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-btn {
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .controls {
+        display: none;
+        /* Hide hints on mobile to save space */
+    }
+
+    .language-toggle {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
 }

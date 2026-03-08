@@ -164,3 +164,23 @@
     padding-left: 15px;
     font-size: 0.85rem;
 }
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    #view-reading.active {
+        padding: 20px 15px;
+    }
+
+    .reading-toc {
+        display: none;
+        /* Hide TOC on mobile completely since side panel covers text */
+    }
+
+    .markdown-body h1 {
+        font-size: 2rem;
+    }
+
+    .markdown-body h2 {
+        font-size: 1.5rem;
+    }
+}

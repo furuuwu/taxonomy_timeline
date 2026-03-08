@@ -179,3 +179,32 @@
 .tree-children>.tree-node-wrapper:only-child::before {
     display: none;
 }
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    #view-hierarchy.active {
+        flex-direction: column;
+        min-width: 0;
+    }
+
+    .hierarchy-sidebar {
+        width: 100%;
+        max-height: 250px;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        flex-shrink: 0;
+        overflow-x: hidden;
+    }
+
+    .hierarchy-canvas {
+        padding: 20px 10px;
+        min-width: 0;
+        overflow-x: auto;
+    }
+
+    .tree-node {
+        min-width: 120px;
+        padding: 8px 16px;
+        margin: 15px 0;
+    }
+}
