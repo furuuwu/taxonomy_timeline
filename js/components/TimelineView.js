@@ -142,7 +142,7 @@ export class TimelineView {
     }
 
     bindEvents() {
-        // Panning (Drag)
+        // Panning (Drag) - Mouse
         this.container.addEventListener('mousedown', (e) => {
             this.isDragging = true;
             this.startX = e.pageX - this.container.offsetLeft;
@@ -164,6 +164,28 @@ export class TimelineView {
             const walk = (x - this.startX) * 1.5; // Drag speed multiplier
             this.container.scrollLeft = this.scrollLeft - walk;
         });
+
+        // Panning (Drag) - Touch
+        this.container.addEventListener('touchstart', (e) => {
+            this.isDragging = true;
+            this.startX = e.touches[0].pageX - this.container.offsetLeft;
+            this.scrollLeft = this.container.scrollLeft;
+        }, { passive: true });
+
+        this.container.addEventListener('touchend', () => {
+            this.isDragging = false;
+        });
+
+        this.container.addEventListener('touchcancel', () => {
+            this.isDragging = false;
+        });
+
+        this.container.addEventListener('touchmove', (e) => {
+            if (!this.isDragging) return;
+            const x = e.touches[0].pageX - this.container.offsetLeft;
+            const walk = (x - this.startX) * 1.5; // Drag speed multiplier
+            this.container.scrollLeft = this.scrollLeft - walk;
+        }, { passive: true });
 
         // Zooming (Scroll)
         this.container.addEventListener('wheel', (e) => {
