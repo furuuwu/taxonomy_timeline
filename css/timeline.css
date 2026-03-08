@@ -31,6 +31,7 @@
     /*min-height: calc(100% - 40px);*/
     /*padding-bottom: 40px;*/
     min-height: calc(100% - 60px);
+    padding-bottom: 40px;
     transform-origin: 0 0;
     will-change: transform;
 }
