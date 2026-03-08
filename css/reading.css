@@ -1,0 +1,166 @@
+/* Reading View Layout */
+#view-reading {
+    display: none;
+    /* overrides flex when not active */
+}
+
+#view-reading.active {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: auto;
+    width: 100%;
+    background-color: var(--bg-main);
+    padding: 40px 20px;
+}
+
+/* Markdown typography styling */
+.markdown-body {
+    max-width: 800px;
+    width: 100%;
+    background: transparent;
+    color: var(--text-primary);
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+    color: #ffffff;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.markdown-body h1 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
+}
+
+.markdown-body h2 {
+    font-size: 1.8rem;
+    color: var(--accent-system);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
+}
+
+.markdown-body h3 {
+    font-size: 1.4rem;
+    color: var(--accent-scientist-hover);
+}
+
+.markdown-body p {
+    margin-bottom: 1.2em;
+    color: var(--text-secondary);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+    margin-bottom: 1.2em;
+    padding-left: 2em;
+    color: var(--text-secondary);
+}
+
+.markdown-body li {
+    margin-bottom: 0.5em;
+}
+
+.markdown-body strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.markdown-body em {
+    color: var(--text-muted);
+}
+
+.markdown-body blockquote {
+    border-left: 4px solid var(--accent-scientist);
+    padding-left: 1rem;
+    margin-left: 0;
+    color: var(--text-muted);
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.markdown-body code {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: monospace;
+}
+
+/* Table of Contents */
+.reading-toc {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 250px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 10;
+}
+
+.reading-toc::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.reading-toc.hidden {
+    display: none;
+}
+
+.reading-toc h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    margin-bottom: 8px;
+}
+
+.toc-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+    display: block;
+    line-height: 1.4;
+}
+
+.toc-link:hover {
+    color: var(--accent-system);
+}
+
+.toc-link.active {
+    color: var(--accent-scientist-hover);
+    font-weight: 600;
+}
+
+.toc-indent-h3 {
+    padding-left: 15px;
+    font-size: 0.85rem;
+}

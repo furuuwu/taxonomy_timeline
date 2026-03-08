@@ -1,0 +1,43 @@
+:root {
+    /* Color Palette - Premium Dark Mode */
+    --bg-main: #0a0a0c;
+    --bg-header: rgba(15, 15, 18, 0.85);
+    --bg-timeline: #121216;
+    --bg-panel: rgba(22, 22, 26, 0.6);
+
+    --text-primary: #f0f0f5;
+    --text-secondary: #a0a0b0;
+    --text-muted: #606070;
+
+    /* Branding colors */
+    --accent-scientist: #4f46e5;
+    /* Indigo */
+    --accent-scientist-hover: #6366f1;
+    --accent-system: #0ea5e9;
+    /* Light Blue */
+    --accent-system-hover: #38bdf8;
+
+    --border-color: rgba(255, 255, 255, 0.1);
+    --grid-line: rgba(255, 255, 255, 0.05);
+
+    /* Dimensions */
+    --header-height: 100px;
+    --track-height: 140px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    overflow: hidden;
+    /* Prevent body scroll, we handle it in timeline */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}

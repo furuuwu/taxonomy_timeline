@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxonomy and Systematics Timeline</title>
+    <!-- Modern Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Modular CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/hierarchy.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/reading.css">
+
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Application Logic (ES Modules) -->
+    <script type="module" src="js/i18n.js"></script>
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="app-header">
+        <div id="language-toggle" class="language-toggle">
+            <span class="lang-icon">🌐</span>
+            <button class="lang-btn active" data-lang="pt">PT</button>
+            <span class="lang-divider">|</span>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <div class="header-content">
+            <h1 data-i18n="app-title">The Evolution of Taxonomy & Systematics</h1>
+            <p class="subtitle" data-i18n="app-subtitle">A Historical Timeline of Classification Ideas and The
+                Scientists Behind Them</p>
+        </div>
+
+        <div class="tab-controls">
+            <button id="tab-timeline" class="tab-btn active" data-target="view-timeline"
+                data-i18n="tab-timeline">Timeline View</button>
+            <button id="tab-hierarchy" class="tab-btn" data-target="view-hierarchy" data-i18n="tab-hierarchy">Hierarchy
+                View</button>
+            <button id="tab-reading" class="tab-btn" data-target="view-reading" data-i18n="tab-reading">Reading</button>
+        </div>
+
+        <div class="controls">
+            <span id="hint-timeline" class="control-hint" data-i18n="hint-timeline">Drag to Pan • Scroll to Zoom</span>
+            <span id="hint-hierarchy" class="control-hint hidden" data-i18n="hint-hierarchy">Select a Classification
+                System</span>
+            <span id="hint-reading" class="control-hint hidden" data-i18n="hint-reading">Scroll to read detailed
+                history</span>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Timeline View -->
+        <div id="view-timeline" class="view-container active">
+            <div id="timeline-container" class="timeline-wrapper">
+                <!-- Layers -->
+                <div id="timeline-content" class="timeline-content">
+                    <!-- Timeline scale grid will be injected here -->
+                    <div id="grid-layer" class="grid-layer"></div>
+
+                    <!-- The tracks -->
+                    <div id="scientists-track" class="timeline-track">
+                        <div class="track-label" data-i18n="track-scientists">Scientists</div>
+                        <!-- Scientist bars go here -->
+                    </div>
+
+                    <div id="systems-track" class="timeline-track" style="margin-bottom: 300px;">
+                        <div class="track-label" data-i18n="track-systems">Classification Systems</div>
+                        <!-- System bars go here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hierarchy View -->
+        <div id="view-hierarchy" class="view-container hidden">
+            <aside class="hierarchy-sidebar">
+                <h3 data-i18n="track-systems">Classification Systems</h3>
+                <ul id="system-selector-list" class="system-list">
+                    <!-- Dynamic list items will be generated here -->
+                </ul>
+            </aside>
+            <div class="hierarchy-canvas">
+                <div id="tree-container" class="tree-container">
+                    <p class="placeholder-text" data-i18n="placeholder-tree">Select a system from the left to visualize
+                        its hierarchical tree.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reading View -->
+        <div id="view-reading" class="view-container hidden">
+            <div id="reading-content" class="reading-canvas markdown-body">
+                <p class="placeholder-text" data-i18n="loading-reading">Carregando o documento...</p>
+            </div>
+            <aside id="reading-toc" class="reading-toc hidden">
+                <h3 data-i18n="toc-header">Índice</h3>
+                <ul id="toc-list" class="toc-list"></ul>
+            </aside>
+        </div>
+
+        <!-- Info Panel Overlay (Glassmorphism) -->
+        <aside id="info-panel" class="info-panel hidden">
+            <div class="panel-header">
+                <h2 id="panel-title" data-i18n="panel-title">Details</h2>
+                <button id="close-panel" class="close-btn" aria-label="Close panel"
+                    data-i18n-aria="info-close">&times;</button>
+            </div>
+            <div class="panel-body">
+                <span id="panel-date" class="panel-date"></span>
+                <p id="panel-description" data-i18n="panel-description">Click an item on the timeline to view details.
+                </p>
+
+                <!-- Species Grid Container -->
+                <div id="species-grid-container" class="species-grid-container hidden">
+                    <h3 data-i18n="species-grid-title">Representative Organisms</h3>
+                    <div id="species-grid" class="species-grid"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Species Detail Modal Overlay -->
+        <div id="species-modal" class="species-modal hidden">
+            <div class="species-modal-content">
+                <button id="close-modal" class="close-btn" aria-label="Close Species Detail"
+                    data-i18n-aria="species-modal-close">&times;</button>
+                <img id="modal-species-img" src="" alt="Species Image" class="modal-img">
+                <div class="modal-text">
+                    <h3 id="modal-species-name">Species Name</h3>
+                    <p id="modal-species-reason" class="modal-reason">Reasoning</p>
+                    <p id="modal-species-desc" class="modal-desc">Description text</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
