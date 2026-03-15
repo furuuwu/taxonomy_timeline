@@ -499,7 +499,7 @@ const systemsData = [
         endYear: 1990,
         description: {
             en: "Robert Whittaker's widely taught system: Monera, Protista, Fungi, Plantae, Animalia. Fungi were separated from plants based on their absorptive mode of nutrition.",
-            pt: "O sistema amplamente aceito de Robert Whittaker: Monera, Protista, Fungi, Plantae e Animalia. Os fungos foram separados das plantas com base em seu modo nutritivo de absorção."
+            pt: "O sistema amplamente aceite de Robert Whittaker: Monera, Protista, Fungi, Plantae e Animalia. Os fungos foram separados das plantas com base em seu modo nutritivo de absorção."
         },
         tree: {
             name: { en: "Life", pt: "Vida" },
