@@ -276,12 +276,14 @@ O biólogo alemão Ernst Haeckel reconheceu que a vida microscópica não se enq
 
 Copeland foi pioneiro ao reconhecer a diferença fundamental entre os procariontes (células sem núcleo) e os eucariontes (células com núcleo). Criou o reino **Monera** especificamente para separar as bactérias de todos os outros. Para os restantes eucariontes, considerou que as categorias tradicionais de "plantas" e "animais" eram demasiado rígidas. Como alguns eucariontes (como os fungos) não realizam fotossíntese (como as plantas verdadeiras) e não ingerem alimentos nem possuem tecidos celulares complexos (como os animais verdadeiros), Copeland decidiu que pertenciam a um reino separado, abrangente, para os eucariontes "inferiores". Fez renascer um termo mais antigo do século XIX e chamou-lhe **Protoctista**.
 
-|Kingdom|Description|Examples|
+|Reino|Descrição|Exemplos|
 |---|---|---|
-|Monera|Organisms without a true nucleus (prokaryotes).|Bacteria, blue-green algae.|
-|Protoctista|Nucleated organisms (eukaryotes) that did not fit the strict definitions of true plants or animals.|Fungi, protozoa, red and brown algae.|
-|Plantae|Multicellular, photosynthetic organisms.|Green plants, trees, mosses.|
-|Animalia|Multicellular organisms with complex tissues.|Mammals, insects, birds, sponges.|
+|Monera|Organismos sem núcleo verdadeiro (procariontes).|Bactérias, algas verde-azuladas.|
+|Protoctista|Organismos nucleados (eucariontes) que não se enquadram nas definições estritas de plantas ou animais verdadeiros.|Fungos, protozoários, algas vermelhas e castanhas.|
+|Plantae|Organismos multicelulares fotossintéticos.|Plantas verdes, árvores, musgos.|
+|Animalia|Organismos pluricelulares com tecidos complexos.|Mamíferos, insetos, aves, esponjas.|
+
+--
 
 **O Sistema dos 5 Reinos (1969):**
 
@@ -300,6 +302,8 @@ Aplicando estas regras, Whittaker criou esta matriz definitiva:
 |Fungi|Eucariótico|Presente (composto por quitina)|Multicelular (tecido laxo)|Heterotrófico (Absortivo)|
 |Plantae|Eucariótico|Presente (composto de celulose)|Tecido/Órgão|Autotrófico (Fotossintético)|
 |Animalia|Eucariótico|Ausente|Tecido/Órgão/Sistema|Heterotrófico (Ingestivo)|
+
+--
 
 **A Descoberta das Archaea (1977):**
 

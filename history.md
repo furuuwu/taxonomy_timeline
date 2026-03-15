@@ -276,12 +276,14 @@ The German biologist Ernst Haeckel recognized that microscopic life didn't fit n
 
 Copeland was a pioneer in recognizing the fundamental difference between prokaryotes (cells without a nucleus) and eukaryotes (cells with a nucleus). He created the kingdom **Monera** specifically to separate bacteria from everything else. For the remaining eukaryotes, he felt that the traditional "plant" and "animal" categories were too rigid. Because some eukaryotes (like fungi) do not photosynthesize (like true plants) and do not ingest food or have complex cellular tissues (like true animals), Copeland decided they belonged in a separate, catch-all kingdom for "lower" eukaryotes. He revived an older 19th-century term and called it **Protoctista**.
 
-|Reino|Descrição|Exemplos|
+|Kingdom|Description|Examples|
 |---|---|---|
-|Monera|Organismos sem núcleo verdadeiro (procariontes).|Bactérias, algas verde-azuladas.|
-|Protoctista|Organismos nucleados (eucariontes) que não se enquadram nas definições estritas de plantas ou animais verdadeiros.|Fungos, protozoários, algas vermelhas e castanhas.|
-|Plantae|Organismos multicelulares fotossintéticos.|Plantas verdes, árvores, musgos.|
-|Animalia|Organismos pluricelulares com tecidos complexos.|Mamíferos, insetos, aves, esponjas.|
+|Monera|Organisms without a true nucleus (prokaryotes).|Bacteria, blue-green algae.|
+|Protoctista|Nucleated organisms (eukaryotes) that did not fit the strict definitions of true plants or animals.|Fungi, protozoa, red and brown algae.|
+|Plantae|Multicellular, photosynthetic organisms.|Green plants, trees, mosses.|
+|Animalia|Multicellular organisms with complex tissues.|Mammals, insects, birds, sponges.|
+
+--
 
 **The 5-Kingdom System (1969):**
 
@@ -300,6 +302,8 @@ By applying those rules, Whittaker created this definitive matrix:
 |Fungi|Eukaryotic|Present (made of chitin)|Multicellular (loose tissue)|Heterotrophic (Absorptive)|
 |Plantae|Eukaryotic|Present (made of cellulose)|Tissue / Organ|Autotrophic (Photosynthetic)|
 |Animalia|Eukaryotic|Absent|Tissue / Organ / System|Heterotrophic (Ingestive)|
+
+--
 
 **The Discovery of Archaea (1977):**
 
