@@ -379,6 +379,116 @@ const scientistsData = [
             en: "Pioneered ancient DNA sequencing. Sequenced the Neanderthal genome, proving interbreeding with Homo sapiens and clarifying hominid evolution.",
             pt: "Pioneiro no sequenciamento de DNA antigo. Sequenciou o genoma dos Neandertais, provando o intercruzamento com o Homo sapiens e ajudando a esclarecer a evolução dos hominídeos."
         }
+    },
+    {
+        id: "aquinas",
+        title: { en: "Thomas Aquinas", pt: "Tomás de Aquino" },
+        startYear: 1225,
+        endYear: 1274,
+        description: {
+            en: "Integrated Aristotelian philosophy with Christian theology, viewing nature through the lens of a divine hierarchy or 'Great Chain of Being' (Scala Naturae).",
+            pt: "Integrou a filosofia aristotélica com a teologia cristã, vendo a natureza através da lente de uma hierarquia divina ou 'Grande Cadeia do Ser' (Scala Naturae)."
+        }
+    },
+    {
+        id: "aldamiri",
+        title: { en: "Al-Damiri", pt: "Al-Damiri" },
+        startYear: 1341,
+        endYear: 1405,
+        description: {
+            en: "Arab writer who compiled 'Hayat al-Hayawan' (The Life of Animals), a major encyclopedia of zoology that combined scientific knowledge with folklore and linguistics.",
+            pt: "Escritor árabe que compilou 'Hayat al-Hayawan' (A Vida dos Animais), uma grande enciclopédia de zoologia que combinava conhecimento científico com folclore e linguística."
+        }
+    },
+    {
+        id: "ussher",
+        title: { en: "James Ussher", pt: "James Ussher" },
+        startYear: 1581,
+        endYear: 1656,
+        description: {
+            en: "Formulated the Ussher chronology, calculating the date of creation to 4004 BC, which heavily influenced how scholars viewed the age of the Earth and the timeframe for the history of life.",
+            pt: "Formulou a cronologia de Ussher, calculando a data da criação em 4004 a.C., o que influenciou fortemente a forma como os estudiosos viam a idade da Terra e o cronograma para a história da vida."
+        }
+    },
+    {
+        id: "lamarck",
+        title: { en: "Jean-Baptiste Lamarck", pt: "Jean-Baptiste Lamarck" },
+        startYear: 1744,
+        endYear: 1829,
+        description: {
+            en: "Proposed early theories of evolution, notably the inheritance of acquired characteristics, and made significant contributions to the classification of invertebrates.",
+            pt: "Propôs as primeiras teorias da evolução, notavelmente a herança de características adquiridas, e deu contributos significativos para a classificação dos invertebrados."
+        }
+    },
+    {
+        id: "cesalpino",
+        title: { en: "Andrea Cesalpino", pt: "Andrea Cesalpino" },
+        startYear: 1519,
+        endYear: 1603,
+        description: {
+            en: "A pioneering botanist who created an early system of plant classification based on fruits and seeds, moving away from alphabetical or medicinal groupings.",
+            pt: "Um botânico pioneiro que criou um dos primeiros sistemas de classificação de plantas com base em frutos e sementes, afastando-se dos agrupamentos alfabéticos ou medicinais."
+        }
+    },
+    {
+        id: "bauhin",
+        title: { en: "Johann Bauhin", pt: "Johann Bauhin" },
+        startYear: 1541,
+        endYear: 1613,
+        description: {
+            en: "Co-author of an extensive early botanical encyclopedia that described over 5,000 plants, laying important groundwork for later, more systematic classifications.",
+            pt: "Coautor de uma extensa e pioneira enciclopédia botânica que descreveu mais de 5.000 plantas, lançando bases fundamentais para classificações posteriores mais sistemáticas."
+        }
+    },
+    {
+        id: "leclerc_buffon",
+        title: { en: "Georges-Louis Leclerc", pt: "Georges-Louis Leclerc" },
+        startYear: 1707,
+        endYear: 1788,
+        description: {
+            en: "Authored the monumental 'Histoire Naturelle', exploring the concept of species changing over time and emphasizing the importance of environmental influence.",
+            pt: "Foi o autor da monumental 'Histoire Naturelle', explorando o conceito de mudança das espécies ao longo do tempo e enfatizando a importância da influência ambiental."
+        }
+    },
+    {
+        id: "anning",
+        title: { en: "Mary Anning", pt: "Mary Anning" },
+        startYear: 1799,
+        endYear: 1847,
+        description: {
+            en: "Pioneering paleontologist and fossil collector whose discoveries of Jurassic marine reptiles in Lyme Regis fundamentally changed scientific understanding of prehistoric life.",
+            pt: "Paleontóloga e colecionadora de fósseis pioneira, cujas descobertas de répteis marinhos do Jurássico em Lyme Regis mudaram fundamentalmente a compreensão científica da vida pré-histórica."
+        }
+    },
+    {
+        id: "mantell",
+        title: { en: "Gideon Mantell", pt: "Gideon Mantell" },
+        startYear: 1790,
+        endYear: 1852,
+        description: {
+            en: "Discovered the first recognized dinosaur fossils (Iguanodon), contributing greatly to the early establishment of paleontology as a science.",
+            pt: "Descobriu os primeiros fósseis de dinossauros reconhecidos (Iguanodon), contribuindo de forma decisiva para o estabelecimento inicial da paleontologia como ciência."
+        }
+    },
+    {
+        id: "owen",
+        title: { en: "Richard Owen", pt: "Richard Owen" },
+        startYear: 1804,
+        endYear: 1892,
+        description: {
+            en: "Coined the term 'Dinosauria' and was a brilliant comparative anatomist, though often an opponent of Darwin's theory of evolution.",
+            pt: "Criou o termo 'Dinosauria' e foi um brilhante anatomista comparativo, embora frequentemente opositor da teoria da evolução de Darwin."
+        }
+    },
+    {
+        id: "wallace",
+        title: { en: "Alfred Russel Wallace", pt: "Alfred Russel Wallace" },
+        startYear: 1823,
+        endYear: 1913,
+        description: {
+            en: "Independently conceived the theory of evolution through natural selection, prompting Charles Darwin to publish his own ideas. Considered the father of biogeography.",
+            pt: "Concebeu de forma independente a teoria da evolução através da seleção natural, impulsionando Charles Darwin a publicar as suas próprias ideias. É considerado o pai da biogeografia."
+        }
     }
 ];
 
@@ -405,7 +515,7 @@ const systemsData = [
                     rank: { en: "Kingdom", pt: "Reino" },
                     description: { en: "Organisms with vegetative soul, capable of growth and reproduction (includes ALL non-animals).", pt: "Organismos com alma vegetativa, capazes de crescer e reproduzir (inclui TODOS os não-animais)." },
                     imageQuery: "plant",
-                    species: ["arabidopsis", "chlamy", "yeast", "mushroom", "paramecium", "euglena", "ecoli", "halo", "oak", "corn", "pine", "fern"],
+                    species: ["arabidopsis", "mushroom", "oak", "corn", "pine", "fern"],
                     children: []
                 },
                 {
@@ -439,10 +549,10 @@ const systemsData = [
             species: [],
             children: [
                 {
-                    name: { en: "Plantae", pt: "Plantae" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Stationary, photosynthetic living things.", pt: "Seres vivos estacionários e fotossintéticos." }, imageQuery: "flora", species: ["arabidopsis", "chlamy", "yeast", "mushroom", "euglena", "paramecium", "ecoli", "halo", "oak", "corn", "pine", "fern"], children: []
+                    name: { en: "Plantae", pt: "Plantae" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Stationary, photosynthetic living things.", pt: "Seres vivos estacionários e fotossintéticos." }, imageQuery: "flora", species: ["arabidopsis", "mushroom", "oak", "corn", "pine", "fern"], children: []
                 },
                 {
-                    name: { en: "Animalia", pt: "Animalia" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Mobile, heterotrophic living things.", pt: "Seres vivos móveis e heterotróficos." }, imageQuery: "fauna", species: ["human", "fly", "worm", "jelly", "dog", "chicken", "salmon", "octopus", "eagle", "starfish", "centipede", "ladybug", "platypus", "shark", "cow", "frog", "croc"], children: []
+                    name: { en: "Animalia", pt: "Animalia" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Mobile, heterotrophic living things.", pt: "Seres vivos móveis e heterotróficos." }, imageQuery: "fauna", species: ["human", "fly", "worm", "jelly", "dog", "chicken", "salmon", "octopus", "eagle", "starfish", "centipede", "ladybug", "platypus", "shark", "cow", "frog", "croc", "chlamy", "yeast", "euglena", "paramecium", "ecoli", "halo",], children: []
                 }
             ]
         }
@@ -465,7 +575,7 @@ const systemsData = [
             children: [
                 { name: { en: "Plantae", pt: "Plantae" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Multicellular plants.", pt: "Plantas multicelulares." }, imageQuery: "tree", species: ["arabidopsis", "chlamy", "oak", "corn", "pine", "fern"], children: [] },
                 { name: { en: "Animalia", pt: "Animalia" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Multicellular animals.", pt: "Animais multicelulares." }, imageQuery: "tiger", species: ["human", "fly", "worm", "jelly", "dog", "chicken", "salmon", "octopus", "eagle", "starfish", "centipede", "ladybug", "platypus", "shark", "cow", "frog", "croc"], children: [] },
-                { name: { en: "Protista", pt: "Protista" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Unicellular microorganisms, lacking tissue organization. Served as a giant catch-all.", pt: "Microrganismos unicelulares sem organização de tecidos." }, imageQuery: "amoeba", species: ["paramecium", "euglena", "yeast", "mushroom", "ecoli", "halo"], children: [] }
+                { name: { en: "Protista", pt: "Protista" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Organisms that lacked the complex, differentiated tissue systems found in higher plants and animals", pt: "Organismos que não apresentam tecidos complexos e diferenciados como os encontrados em plantas e animais" }, imageQuery: "amoeba", species: ["paramecium", "euglena", "yeast", "mushroom", "ecoli", "halo"], children: [] }
             ]
         }
     },
@@ -485,10 +595,10 @@ const systemsData = [
             imageQuery: "cell",
             species: [],
             children: [
-                { name: { en: "Monera", pt: "Monera" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Prokaryotes (bacteria). Cells without a true nucleus.", pt: "Procariontes (bactérias). Células sem um núcleo verdadeiro." }, imageQuery: "bacteria", species: ["ecoli", "halo"], children: [] },
-                { name: { en: "Protista", pt: "Protista" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Eukaryotic microorganisms (fungi were sometimes placed here).", pt: "Microrganismos eucarióticos (os fungos às vezes eram colocados aqui)." }, imageQuery: "paramecium", species: ["paramecium", "euglena", "yeast", "mushroom"], children: [] },
-                { name: { en: "Plantae", pt: "Plantae" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Multicellular plants.", pt: "Plantas multicelulares." }, imageQuery: "fern", species: ["arabidopsis", "chlamy", "oak", "corn", "pine", "fern"], children: [] },
-                { name: { en: "Animalia", pt: "Animalia" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Multicellular animals.", pt: "Animais multicelulares." }, imageQuery: "lion", species: ["human", "fly", "worm", "jelly", "dog", "chicken", "salmon", "octopus", "eagle", "starfish", "centipede", "ladybug", "platypus", "shark", "cow", "frog", "croc"], children: [] }
+                { name: { en: "Monera", pt: "Monera" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Prokaryotes. Cells without a true nucleus. Eg. bacteria, blue-green algae.", pt: "Procariontes. Células sem um núcleo verdadeiro. Ex. bactérias, cianobactérias." }, imageQuery: "bacteria", species: ["ecoli", "halo"], children: [] },
+                { name: { en: "Protista", pt: "Protista" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Eukaryotes that did not fit the strict definitions of true plants or animals. Eg. fungi, protozoa, red and brown algae.", pt: "Eucariotas que não seguiam a definição estrita de animais ou plantas. Ex. fungos, protozoários, algas vermelhas e castanhas." }, imageQuery: "paramecium", species: ["paramecium", "euglena", "yeast", "mushroom"], children: [] },
+                { name: { en: "Plantae", pt: "Plantae" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Multicellular, photosynthetic organisms. Eg. green plants, trees, mosses.", pt: "Organismos multicelulares fotossintéticos. Ex. plantas verdes, árvores, musgos" }, imageQuery: "fern", species: ["arabidopsis", "chlamy", "oak", "corn", "pine", "fern"], children: [] },
+                { name: { en: "Animalia", pt: "Animalia" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Multicellular organisms with complex tissues. Eg. mammals, insects, birds, sponges.", pt: "Organismos multicelulares com tecidos complexos. Ex. mamíferos, insetos, aves, esponjas" }, imageQuery: "lion", species: ["human", "fly", "worm", "jelly", "dog", "chicken", "salmon", "octopus", "eagle", "starfish", "centipede", "ladybug", "platypus", "shark", "cow", "frog", "croc"], children: [] }
             ]
         }
     },
@@ -508,7 +618,7 @@ const systemsData = [
             imageQuery: "forest",
             species: [],
             children: [
-                { name: { en: "Monera", pt: "Monera" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Prokaryotic organisms (bacteria/blue-green algae).", pt: "Organismos procarióticos (bactérias e algas azuis)." }, imageQuery: "microbe", species: ["ecoli", "halo"], children: [] },
+                { name: { en: "Monera", pt: "Monera" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Prokaryotic organisms (bacteria/blue-green algae).", pt: "Organismos procarióticos (bactérias e cianobactérias)." }, imageQuery: "microbe", species: ["ecoli", "halo"], children: [] },
                 { name: { en: "Protista", pt: "Protista" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Mostly unicellular eukaryotes.", pt: "Eucariontes unicelulares, na sua maioria." }, imageQuery: "plankton", species: ["paramecium", "euglena", "chlamy"], children: [] },
                 { name: { en: "Fungi", pt: "Fungi" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Absorptive heterotrophs (mushrooms, molds, yeast). Finally separated into their own kingdom.", pt: "Heterótrofos absortivos (cogumelos, mofos e leveduras)." }, imageQuery: "mushroom", species: ["yeast", "mushroom"], children: [] },
                 { name: { en: "Plantae", pt: "Plantae" }, rank: { en: "Kingdom", pt: "Reino" }, description: { en: "Photosynthetic autotrophs.", pt: "Autótrofos fotossintetizantes (plantas)." }, imageQuery: "flower", species: ["arabidopsis", "oak", "corn", "pine", "fern"], children: [] },
