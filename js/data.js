@@ -53,7 +53,7 @@ const speciesDictionary = {
     },
     "yeast": {
         id: "yeast",
-        name: { en: "Saccharomyces cerevisiae", pt: "Saccharomyces" },
+        name: { en: "Saccharomyces cerevisiae", pt: "Saccharomyces cerevisiae" },
         fileName: "Saccharomyces cerevisiae.png",
         reason: { en: "Yeast (fungus)", pt: "Levedura (fungo)" },
         description: { en: "A species of yeast well-known for its role in baking and brewing. It is a single-celled fungus.", pt: "Uma espécie de levedura muito conhecida por seu papel na panificação e na fabricação de cerveja. É um fungo unicelular." }
@@ -67,7 +67,7 @@ const speciesDictionary = {
     },
     "chlamy": {
         id: "chlamy",
-        name: { en: "Chlamydomonas reinhardtii", pt: "Chlamydomonas" },
+        name: { en: "Chlamydomonas reinhardtii", pt: "Chlamydomonas reinhardtii" },
         fileName: "Chlamydomonas reinhardtii.png",
         reason: { en: "Green alga", pt: "Alga verde" },
         description: { en: "A single-celled green alga about 10 micrometres in diameter that swims with two flagella. It is widely used as a model organism.", pt: "Uma alga verde unicelular com cerca de 10 micrômetros de diâmetro que nada usando dois flagelos. É amplamente utilizada como organismo modelo." }
@@ -81,147 +81,147 @@ const speciesDictionary = {
     },
     "oak": {
         id: "oak",
-        name: { en: "Quercus robur", pt: "Carvalho" },
+        name: { en: "Quercus robur", pt: "Quercus robur" },
         fileName: "Quercus robur.png",
         reason: { en: "Angiosperm (tree)", pt: "Angiosperma (árvore)" },
         description: { en: "The common oak is a species of flowering plant in the beech and oak family, Fagaceae.", pt: "O carvalho-roble é uma espécie de planta com flor da família Fagaceae (as faias e os carvalhos)." }
     },
     "corn": {
         id: "corn",
-        name: { en: "Zea mays", pt: "Milho" },
+        name: { en: "Zea mays", pt: "Zea mays" },
         fileName: "Zea mays.png",
         reason: { en: "Angiosperm (crop)", pt: "Milho (cultura agrícola)" },
         description: { en: "Maize, or corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago.", pt: "O milho é um grão de cereal domesticado por povos indígenas no sul do México há cerca de 10.000 anos." }
     },
     "pine": {
         id: "pine",
-        name: { en: "Pinus sylvestris", pt: "Pinheiro-sylvestre" },
+        name: { en: "Pinus sylvestris", pt: "Pinus sylvestris" },
         fileName: "Pinus sylvestris.png",
         reason: { en: "Gymnosperm", pt: "Gimnosperma" },
         description: { en: "Scots pine is a species of pine native to Eurasia. It represents a major lineage of seed-producing plants.", pt: "O pinheiro-de-casquinha é uma espécie de pinheiro nativo da Eurásia. Ele representa uma importante linhagem de plantas produtoras de sementes (gimnospermas)." }
     },
     "fern": {
         id: "fern",
-        name: { en: "Pteridium aquilinum", pt: "Samambaia (Feto)" },
+        name: { en: "Pteridium aquilinum", pt: "Pteridium aquilinum" },
         fileName: "Pteridium aquilinum.png",
-        reason: { en: "Fern", pt: "Samambaia (Feto)" },
+        reason: { en: "Fern", pt: "Feto" },
         description: { en: "Bracken is a species of fern occurring in temperate and subtropical regions in both hemispheres.", pt: "A samambaia-águia (feto-comum) é uma espécie de samambaia que ocorre em regiões temperadas e subtropicais em ambos os hemisférios." }
     },
     "fly": {
         id: "fly",
-        name: { en: "Drosophila melanogaster", pt: "Mosca-da-fruta" },
+        name: { en: "Drosophila melanogaster", pt: "Drosophila melanogaster" },
         fileName: "Drosophila melanogaster.png",
         reason: { en: "Model insect", pt: "Inseto modelo" },
         description: { en: "The common fruit fly is a species of fly in the family Drosophilidae. It is one of the most studied organisms in biological research.", pt: "A mosca-da-fruta comum é uma espécie de mosca da família Drosophilidae. É um dos organismos mais estudados na pesquisa biológica." }
     },
     "human": {
         id: "human",
-        name: { en: "Homo sapiens", pt: "Ser humano" },
+        name: { en: "Homo sapiens", pt: "Homo sapiens" },
         fileName: "Homo sapiens.png",
         reason: { en: "Humans", pt: "Ser humano" },
         description: { en: "The most abundant and widespread species of primate, characterized by bipedalism and large, complex brains.", pt: "A espécie de primata mais abundante e amplamente distribuída, caracterizada por bipedalismo e cérebros grandes e complexos." }
     },
     "worm": {
         id: "worm",
-        name: { en: "Lumbricus terrestris", pt: "Minhoca" },
+        name: { en: "Lumbricus terrestris", pt: "Lumbricus terrestris" },
         fileName: "Lumbricus terrestris.png",
         reason: { en: "Earthworm", pt: "Minhoca" },
         description: { en: "A large, reddish worm native to Europe, commonly known as the common earthworm.", pt: "Um grande verme de lombo avermelhado nativo da Europa, conhecido popularmente como minhoca-da-terra." }
     },
     "jelly": {
         id: "jelly",
-        name: { en: "Aurelia aurita", pt: "Água-viva" },
+        name: { en: "Aurelia aurita", pt: "Aurelia aurita" },
         fileName: "Aurelia aurita.png",
-        reason: { en: "Jellyfish", pt: "Água-viva" },
-        description: { en: "The moon jelly is a widely studied species of the genus Aurelia, representing early diverging animals (Cnidarians).", pt: "A água-viva-da-lua é uma espécie amplamente estudada do gênero Aurelia, representando um clado inicial de animais (Cnidários)." }
+        reason: { en: "Jellyfish", pt: "Medusa" },
+        description: { en: "The moon jelly is a widely studied species of the genus Aurelia, representing early diverging animals (Cnidarians).", pt: "A medusa-da-lua é uma espécie amplamente estudada do gênero Aurelia, representando um clado inicial de animais (Cnidários)." }
     },
     "dog": {
         id: "dog",
-        name: { en: "Canis lupus familiaris", pt: "Cão (Cachorro)" },
+        name: { en: "Canis lupus familiaris", pt: "Canis lupus familiaris" },
         fileName: "Canis lupus familiaris.png",
         reason: { en: "Mammal", pt: "Mamífero" },
         description: { en: "The dog is a domesticated descendant of the wolf.", pt: "O cão é um descendente domesticado do lobo." }
     },
     "chicken": {
         id: "chicken",
-        name: { en: "Gallus gallus", pt: "Galo / Galinha" },
+        name: { en: "Gallus gallus", pt: "Gallus gallus" },
         fileName: "Gallus gallus.png",
         reason: { en: "Bird", pt: "Ave" },
         description: { en: "The red junglefowl is a tropical member of the pheasant family. It is the primary ancestor of the domestic chicken.", pt: "O galo-banquiva é um membro tropical da família dos faisões. É o principal ancestral da galinha doméstica." }
     },
     "salmon": {
         id: "salmon",
-        name: { en: "Salmo salar", pt: "Salmão" },
+        name: { en: "Salmo salar", pt: "Salmo salar" },
         fileName: "Salmo salar.png",
         reason: { en: "Bony fish", pt: "Peixe ósseo" },
         description: { en: "The Atlantic salmon is a species of ray-finned fish in the family Salmonidae.", pt: "O salmão do Atlântico é uma espécie de peixe com nadadeiras raiadas da família Salmonidae." }
     },
     "octopus": {
         id: "octopus",
-        name: { en: "Octopus vulgaris", pt: "Polvo" },
+        name: { en: "Octopus vulgaris", pt: "Octopus vulgaris" },
         fileName: "Octopus vulgaris.png",
         reason: { en: "Mollusc", pt: "Molusco" },
         description: { en: "The common octopus is a highly intelligent, predatory cephalopod.", pt: "O polvo comum é um cefalópode predador e altamente inteligente." }
     },
     "eagle": {
         id: "eagle",
-        name: { en: "Aquila sp.", pt: "Águia" },
+        name: { en: "Aquila sp.", pt: "Aquila sp." },
         fileName: "Aquila sp.png",
         reason: { en: "Bird", pt: "Ave" },
         description: { en: "Eagles are large, powerfully built birds of prey.", pt: "As águias são grandes aves de rapina, de constituição robusta." }
     },
     "starfish": {
         id: "starfish",
-        name: { en: "Asterias rubens", pt: "Estrela-do-mar" },
+        name: { en: "Asterias rubens", pt: "Asterias rubens" },
         fileName: "Asterias rubens.png",
         reason: { en: "Echinoderm", pt: "Equinodermo" },
         description: { en: "The common starfish is the most common and familiar starfish in the north-east Atlantic.", pt: "A estrela-do-mar comum é a espécie de estrela-do-mar mais comum e conhecida no nordeste do Atlântico." }
     },
     "centipede": {
         id: "centipede",
-        name: { en: "Scolopendra sp.", pt: "Centopeia (Lacraia)" },
+        name: { en: "Scolopendra sp.", pt: "Scolopendra sp." },
         fileName: "Scolopendra sp.png",
         reason: { en: "Myriapod", pt: "Miriápode" },
-        description: { en: "Centipedes are predatory arthropods belonging to the class Chilopoda.", pt: "Centopeias (ou lacraias) são artrópodes predadores da classe Chilopoda." }
+        description: { en: "Centipedes are predatory arthropods belonging to the class Chilopoda.", pt: "Centopeias são artrópodes predadores da classe Chilopoda." }
     },
     "ladybug": {
         id: "ladybug",
-        name: { en: "Coccinella septempunctata", pt: "Joaninha" },
+        name: { en: "Coccinella septempunctata", pt: "Coccinella septempunctata" },
         fileName: "Coccinella septempunctata.png",
         reason: { en: "Insect", pt: "Inseto" },
         description: { en: "The seven-spot ladybird is the most common ladybird in Europe.", pt: "A joaninha-de-sete-pontos é a joaninha mais comum da Europa." }
     },
     "platypus": {
         id: "platypus",
-        name: { en: "Ornithorhynchus anatinus", pt: "Ornitorrinco" },
+        name: { en: "Ornithorhynchus anatinus", pt: "Ornithorhynchus anatinus" },
         fileName: "Ornithorhynchus anatinus.png",
         reason: { en: "Monotreme", pt: "Monotremado" },
         description: { en: "A semiaquatic, egg-laying mammal endemic to eastern Australia. Its unique traits historically confused taxonomists.", pt: "Um mamífero semiaquático e ovíparo (põe ovos) endêmico ao leste da Austrália. Suas características únicas confundiram os taxonomistas por muito tempo." }
     },
     "shark": {
         id: "shark",
-        name: { en: "Carcharodon carcharias", pt: "Tubarão-branco" },
+        name: { en: "Carcharodon carcharias", pt: "Carcharodon carcharias" },
         fileName: "Carcharodon carcharias.png",
         reason: { en: "Cartilaginous fish", pt: "Peixe cartilaginoso" },
         description: { en: "The great white shark is a species of large mackerel shark, representing a major group of fish with skeletons made of cartilage.", pt: "O grande tubarão-branco é uma espécie de tubarão e representa um grande grupo de peixes cujos esqueletos são feitos de cartilagem." }
     },
     "cow": {
         id: "cow",
-        name: { en: "Bos taurus", pt: "Vaca / Boi" },
+        name: { en: "Bos taurus", pt: "Bos taurus" },
         fileName: "Bos taurus.png",
         reason: { en: "Mammal", pt: "Mamífero" },
         description: { en: "Cattle are large, domesticated, cloven-hooved herbivores.", pt: "Os bovinos são grandes herbívoros domesticados providos de cascos fendidos." }
     },
     "frog": {
         id: "frog",
-        name: { en: "Rana sp.", pt: "Sapo / Rã" },
+        name: { en: "Rana sp.", pt: "Rana sp." },
         fileName: "Rana sp.png",
         reason: { en: "Amphibian", pt: "Anfíbio" },
         description: { en: "True frogs are widespread amphibians, typified by long hind legs and a lack of a tail.", pt: "As rãs verdadeiras são anfíbios comuns e de ampla distribuição, caracterizados por pernas traseiras longas e falta de cauda na fase adulta." }
     },
     "croc": {
         id: "croc",
-        name: { en: "Crocodylus niloticus", pt: "Crocodilo" },
+        name: { en: "Crocodylus niloticus", pt: "Crocodylus niloticus" },
         fileName: "Crocodylus niloticus.png",
         reason: { en: "Reptile", pt: "Réptil" },
         description: { en: "The Nile crocodile is a large crocodilian native to freshwater habitats in Africa.", pt: "O crocodilo-do-nilo é um grande crocodiliano nativo de habitats de água doce na África." }
