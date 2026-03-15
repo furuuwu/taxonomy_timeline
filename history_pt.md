@@ -23,7 +23,7 @@ Como Aristóteles se baseava inteiramente na observação a olho nu, a sua taxon
 
 O seu aluno, Teofrasto (370–285 a.C.), escreveu *De Historia Plantarum*, classificando 480 espécies de plantas com base na sua forma de crescimento. Muitos dos nomes genéricos que utilizou, como *Narcissus* e *Crocus*, sobrevivem até aos dias de hoje. Mais tarde, o médico grego Dioscórides (40–90 d.C.) viajou pelo mundo romano para recolher conhecimentos sobre plantas medicinais, escrevendo *De Materia Medica*, que classificou cerca de 600 espécies com base nas suas propriedades medicinais. Por fim, o estadista romano Plínio, o Velho (23–79 d.C.), descreveu inúmeras plantas na sua obra de 160 volumes, *Naturalis Historia*, atribuindo-lhes nomes latinos como *Populus alba* e *Populus nigra*, e ganhando o título de "Pai do Latim Botânico".
 
-### A Idade Média e a Idade de Ouro Islâmica
+### **A Idade Média e a Idade de Ouro Islâmica**
 
 Após a queda de Roma, a taxonomia na Idade Média europeia foi amplamente impulsionada por pensadores escolásticos como Tomás de Aquino, que adaptaram as ideias de Aristóteles ao conceito filosófico abstrato da Scala Naturae ou a "Grande Cadeia do Ser". Como os microscópios ainda não existiam, estes sistemas ignoravam completamente os fungos e a vida microscópica. Entretanto, a classificação biológica pragmática floresceu no mundo islâmico. Uma figura de destaque foi o erudito egípcio Al-Damiri (falecido em 1405), que escreveu uma influente enciclopédia intitulada *Ḥayāt al-ḥayawān al-kubrā* (Vida dos Animais), que catalogou sistematicamente 931 espécies animais com base nas tradições, poesia e literatura dos árabes.
 
@@ -53,7 +53,7 @@ Durante os séculos XVII e XVIII, os exploradores europeus começaram a regressa
 
 O nobre francês Georges-Louis Leclerc, Conde de Buffon, tentou organizar este fluxo através da descrição pormenorizada. Na sua monumental *História Natural*, com 127 volumes, Buffon detalhou a anatomia, os movimentos, a dieta e a reprodução de todos os animais que encontrou. Buffon era um crítico acérrimo dos sistemas de classificação artificiais; acreditava ser errado impor uma ordem artificial a um mundo natural desordenado, preferindo descrever o mundo a classificá-lo rigidamente.
 
-### Os Pioneiros do Mundo Microscópico
+### **Os Pioneiros do Mundo Microscópico**
 
 A transição do estudo apenas do que podíamos ver a olho nu para a descoberta de todo um universo invisível é um dos pontos de viragem mais entusiasmantes da história da ciência.
 
@@ -93,7 +93,7 @@ Tomou também a ousada decisão de incluir os seres humanos neste esquema de cla
 
 Lineu já conhecia os organismos microscópicos, mas detestava lidar com eles. Tinha um pensamento macroscópico — gostava de classificar coisas que conseguia ver, contar e medir claramente (como as pétalas de uma flor ou os dentes de um mamífero). Os microrganismos frustravam completamente o seu sistema rígido. Como muitos dos microrganismos observados nas gotas de água se moviam rapidamente, os primeiros cientistas consideravam-nos pequenos animais em vez de plantas. Lineu concordou, colocando-os no Reino Animal. Agrupou-os na classe Vermes (vermes) e, eventualmente, criou um género específico para eles com um nome muito apropriado: Chaos. Utilizava o género Chaos como uma espécie de depósito de lixo taxonómico — se um organismo fosse demasiado pequeno para ser estudado adequadamente, não tivesse órgãos óbvios ou simplesmente não fizesse sentido, atirava-o para o Chaos. Escreveu, de forma memorável, que estes organismos eram demasiado pequenos e demasiado confusos para serem classificados adequadamente pela mente humana.
 
-### Os "Pontos de Partida" Taxonómicos
+### **Os "Pontos de Partida" Taxonómicos**
 
 O sistema de Lineu foi tão profundamente eficaz que os códigos botânicos e zoológicos modernos adoptaram retroactivamente as suas obras como os "pontos de partida" absolutos para toda a nomenclatura científica válida. Para as plantas, nenhum nome publicado antes da Species Plantarum de Lineu, em 1753, é considerado válido. Para os animais, o limite é a 10ª edição do Systema Naturae, em 1758. Qualquer nome taxonómico publicado antes destas datas — mesmo os publicados pelo próprio Lineu — é oficialmente classificado como "pré-linneano" e descartado para manter a estabilidade nomenclatural.
 
@@ -339,7 +339,7 @@ Estas regras foram forjadas a partir do caos. Na zoologia, o ornitólogo britân
 
 Surpreendentemente, estes códigos tradicionais não são sistemas cladísticos e nem sequer exigem que um grupo nomeado seja monofilético. Em vez disso, o seu principal objetivo é promover a estabilidade, a universalidade e a singularidade dos nomes científicos através de princípios rigorosos como a prioridade (o nome publicado validamente mais antigo prevalece) e a tipificação (ligando cada nome a um espécime biológico físico).
 
-### Taxonomia Alfa, Taxonomia Beta e Citações de Autores
+### **Taxonomia Alfa, Taxonomia Beta e Citações de Autores**
 
 A prática diária de aplicação destas regras divide-se em fases distintas. Na década de 1930, William Bertram Turrill introduziu o conceito de **"Taxonomia Alfa"**, que se refere à disciplina fundamental de encontrar, descrever e nomear formalmente novas espécies. Uma vez definida uma espécie (microtaxonomia), os sistematas dedicam-se à **"Taxonomia Beta"** (ou macrotaxonomia), que envolve a complexa classificação evolutiva destas espécies numa hierarquia de categorias superiores, como géneros, famílias e ordens.
 

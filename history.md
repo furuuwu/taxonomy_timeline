@@ -23,7 +23,7 @@ Because Aristotle relied entirely on naked-eye observation, his taxonomy was str
 
 His student, Theophrastus (370–285 BC), wrote *De Historia Plantarum*, classifying 480 plant species based on their growth form. Many of the generic names he used, like *Narcissus* and *Crocus*, survive today. Later, the Greek physician Dioscorides (40–90 AD) traveled the Roman world to gather knowledge on medicinal plants, writing *De Materia Medica*, which classified around 600 species based on their medicinal properties. Finally, the Roman statesman Pliny the Elder (23–79 AD) described numerous plants in his 160-volume *Naturalis Historia*, assigning them Latin names like *Populus alba* and *Populus nigra* and earning the title of the "Father of Botanical Latin".
 
-### The Middle Ages and the Islamic Golden Age
+### **The Middle Ages and the Islamic Golden Age**
 
 Following the fall of Rome, taxonomy in the European Middle Ages was largely driven by scholastic thinkers like Thomas Aquinas, who adapted Aristotle's ideas into the abstract philosophical concept of the Scala Naturae or the "Great Chain of Being". Because microscopes did not yet exist, these systems entirely ignored fungi and microscopic life. Meanwhile, pragmatic biological classification flourished in the Islamic world. A standout figure was the Egyptian scholar Al-Damiri (d. 1405), who wrote an influential encyclopedia titled *Ḥayāt al-ḥayawān al-kubrā* (Life of Animals), which systematically cataloged 931 animal species based on the traditions, poetry, and literature of the Arabs.
 
@@ -53,7 +53,7 @@ During the 17th and 18th centuries, European explorers began returning from the 
 
 The French nobleman Georges-Louis Leclerc, the Comte de Buffon, attempted to manage this influx through sheer description. In his massive 127-volume *Histoire naturelle*, Buffon detailed the anatomy, movement, diet, and reproduction of every animal he could find. Buffon was a fierce critic of artificial classification systems; he believed it was wrong to impose an artificial order on a disorderly natural world, preferring to describe the world rather than rigidly classify it.
 
-### The Pioneers of the Microscopic World
+### **The Pioneers of the Microscopic World**
 
 The transition from studying only what we could see with the naked eye to discovering an entire invisible universe is one of the most exciting turning points in the history of science.
 
@@ -93,7 +93,7 @@ He also made the bold decision to include human beings within this animal classi
 
 Linnaeus already knew about microscopic organisms but he hated dealing with them. He was a macroscopic thinker - he liked classifying things he could clearly see, count, and measure (like the petals on a flower or the teeth of a mammal). Microorganisms completely frustrated his rigid system. Because many of the microorganisms observed in drops of water zipped around actively, early scientists thought of them as tiny animals rather than plants. Linnaeus agreed, placing them in the Animal Kingdom. He dumped them into the class Vermes (worms), and eventually created a specific genus for them with a very fitting name: Chaos. He used the genus Chaos as a taxonomic junk drawer - if an organism was too small to study properly, lacked obvious organs, or just didn't make sense, he threw it into Chaos. He famously wrote that these organisms were too tiny and confusing to be properly classified by human minds.
 
-### The Taxonomic "Starting Points"
+### **The Taxonomic "Starting Points"**
 
 Linnaeus's system was so profoundly effective that modern botanical and zoological codes retroactively adopted his works as the absolute "starting points" for all valid scientific naming. For plants, no name published before Linnaeus's Species Plantarum in 1753 is considered valid. For animals, the cutoff is the 10th edition of Systema Naturae in 1758. Any taxonomic name published before these dates—even those published by Linnaeus himself—is officially classified as "pre-Linnaean" and discarded to maintain nomenclatural stability."
 
@@ -338,7 +338,7 @@ These rules were forged out of chaos. In zoology, the British ornithologist Hugh
 
 Surprisingly, these traditional Codes are not cladistic systems and do not even require that a named group be monophyletic. Instead, their primary goal is to promote the stability, universality, and uniqueness of scientific names through strict principles like priority (the oldest validly published name wins) and typification (anchoring every name to a physical biological specimen).
 
-### Alpha Taxonomy, Beta Taxonomy, and Author Citations
+### **Alpha Taxonomy, Beta Taxonomy, and Author Citations**
 
 The day-to-day practice of applying these rules is divided into distinct phases. In the 1930s, William Bertram Turrill introduced the concept of **"Alpha taxonomy"**, which refers to the foundational discipline of finding, describing, and formally naming new species. Once a species is defined (microtaxonomy), systematists engage in **"Beta taxonomy"** (or macrotaxonomy), which involves the complex evolutionary sorting of those species into a hierarchy of higher categories like genera, families, and orders.
 
