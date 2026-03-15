@@ -52,9 +52,7 @@ O nobre francês Georges-Louis Leclerc, Conde de Buffon, tentou organizar este f
 
 Enquanto Buffon escrevia enciclopédias descritivas, o botânico sueco Carl Linnaeus adotou uma abordagem diferente. Lineu enfrentava aquilo a que alguns biólogos modernos chamam a primeira "crise da bioinformática". O enorme volume de dados provenientes de expedições globais ameaçava inundar a comunidade científica com uma sobrecarga de informação.
 
-Para lidar com este fluxo crescente de dados, Lineu abandonou o método tradicional de escrita em manuscritos encadernados. Em vez disso, foi pioneiro no uso de **fichários de papel botânicos**.
-
-Esta era uma tecnologia de informação inovadora, altamente flexível e dinâmica. Ao escrever descrições de espécies em fichários individuais, Lineu criou uma base de dados primitiva que lhe permitia adquirir, armazenar, organizar, recuperar e reorganizar informações taxonómicas com facilidade, sem ter de reescrever livros inteiros.
+Para lidar com este fluxo crescente de dados, Lineu abandonou o método tradicional de escrita em manuscritos encadernados. Em vez disso, foi pioneiro no uso de **ficheiros/fichários de papel botânicos**. Ao escrever descrições de espécies em folhas individuais, Lineu criou uma base de dados primitiva que lhe permitia adquirir, armazenar, organizar, recuperar e reorganizar informações taxonómicas com facilidade, sem ter de reescrever livros inteiros.
 
 ### ***Systema Naturae* e Nomenclatura Binomial**
 
@@ -118,7 +116,7 @@ Três experiências-chave nesta viagem moldaram fundamentalmente o seu pensament
 
 * Na América do Sul, descobriu fósseis de tatus gigantes extintos que eram notavelmente semelhantes, mas distintamente diferentes, dos tatus vivos da mesma região.
 
-Nas ilhas Galápagos, observou plantas e animais únicos, incluindo tartarugas gigantes e tentilhões, cujas características físicas variavam ligeiramente de ilha para ilha.
+* Nas ilhas Galápagos, observou plantas e animais únicos, incluindo tartarugas gigantes e tentilhões, cujas características físicas variavam ligeiramente de ilha para ilha.
 
 Quando regressou a Inglaterra, um ornitólogo confirmou que os tentilhões que Darwin tinha recolhido nas Galápagos eram, na verdade, espécies completamente diferentes. Darwin percebeu que o tempo, o isolamento e as diferentes condições locais (como a disponibilidade de alimento) permitiram que estas aves se adaptassem e evoluíssem para novas espécies.
 
@@ -130,7 +128,7 @@ Darwin aplicou a lógica de Malthus ao mundo natural: como todos os organismos p
 
 Ele sabia que este mecanismo era altamente plausível porque tinha estudado extensivamente a "selecção artificial". Darwin criava pombos e observava a rapidez com que os criadores humanos conseguiam alterar a forma e o comportamento de uma ave, selecionando cuidadosamente indivíduos com as características desejadas para a reprodução. Os agricultores tinham obtido resultados semelhantes com o gado e as plantações. Darwin percebeu que a natureza executava exatamente o mesmo processo seletivo, só que muito mais lentamente e ao longo de vastos períodos de tempo.
 
-### **Wallace e a Publicação de *A Origem das Espécies****
+### **Wallace e a Publicação de "A Origem das Espécies"**
 
 Apesar de já ter uma teoria em desenvolvimento em 1838, Darwin manteve as suas ideias em segredo durante vinte anos. Estava bem ciente de como a comunidade científica tinha atacado duramente o livro de Robert Chambers, publicado anonimamente em 1844, *Vestígios da História Natural da Criação*, que propunha a transmutação das espécies, mas não tinha um mecanismo convincente. Darwin queria acumular provas irrefutáveis ​​antes de as tornar públicas.
 
@@ -219,7 +217,7 @@ Estes métodos paramétricos abordam a construção de árvores de diferentes fo
 
 * **Máxima Verosimilhança (MV):** Este método avalia a probabilidade dos dados de sequência observados, dada uma topologia de árvore específica e um modelo matemático específico de evolução. Estes modelos (como o Jukes-Cantor, HKY ou GTR) calculam a probabilidade de ocorrência de mutações nucleotídicas específicas ao longo do tempo.
 
-**Inferência Bayesiana:** Esta abordagem utiliza algoritmos de Monte Carlo via Cadeias de Markov (MCMC) para estimar a probabilidade posterior de uma árvore ser verdadeira, devolvendo uma distribuição de "credibilidade" das árvores.
+* **Inferência Bayesiana:** Esta abordagem utiliza algoritmos de Monte Carlo via Cadeias de Markov (MCMC) para estimar a probabilidade posterior de uma árvore ser verdadeira, devolvendo uma distribuição de "credibilidade" das árvores.
 
 O aparecimento destes métodos estatísticos desencadeou um intenso debate na sistemática que persiste até aos dias de hoje. Os defensores mais rigorosos da cladística criticam veementemente os métodos de Máxima Verosimilhança e Bayesianos. Defendem que os modelos paramétricos se baseiam em pressupostos evolutivos complexos e não testáveis ​​(como os custos diferenciais de transição de nucleótidos). Os cladistas alertam que a utilização de modelos matemáticos para gerar relações evolutivas ou datar tempos de divergência (como "relógios moleculares relaxados") equivale muitas vezes a escrever "ficção histórica", enquanto a parcimónia adere estritamente à avaliação empírica e transparente das provas físicas.
 
@@ -233,7 +231,7 @@ Historicamente, a visão darwiniana estabelecida focava-se fortemente na evoluç
 
 No final da década de 1960, a bióloga Lynn Margulis enfrentou imensa resistência a esta ideia, tendo o seu artigo seminal sido rejeitado 15 vezes antes de ser finalmente publicado. Margulis defendeu a "teoria endossimbiótica" para explicar a origem das células eucarióticas complexas. Ela sintetizou evidências citológicas e genéticas para propor que os eucariotas são essencialmente "sistemas multigenómicos". Especificamente, ela argumentou que uma célula primitiva adquiriu um simbionte bacteriano de vida livre que acabou por se tornar a mitocôndria produtora de energia e, posteriormente, adquiriu uma cianobactéria fotossintética que evoluiu para o cloroplasto.
 
-A sua teoria controversa foi finalmente validada quando os biólogos moleculares sequenciaram o RNA ribossómico (rRNA) destas organelas celulares e descobriram que estavam geneticamente relacionadas com bactérias, e não com o núcleo da célula hospedeira.
+A sua teoria controversa foi finalmente validada quando os biólogos moleculares sequenciaram o RNA ribossómico (rRNA) destas organelos celulares e descobriram que estavam geneticamente relacionadas com bactérias, e não com o núcleo da célula hospedeira.
 
 ### **A Transformação dos Reinos da Vida: Dos Dois aos Seis e Mais Além**
 
@@ -241,7 +239,7 @@ Durante mais de dois séculos, o sistema de dois reinos de Lineu (Plantas e Anim
 
 * **O Sistema dos Três Reinos (1866):** O biólogo alemão Ernst Haeckel reconheceu que a vida microscópica não se enquadrava perfeitamente nas categorias das plantas ou dos animais. Propôs um terceiro reino, **Protista**, para albergar todos os organismos unicelulares.
 
-* **O Sistema dos Quatro Reinos (1938/1956):** Com a invenção do microscópio electrónico, os biólogos perceberam que existia uma diferença fundamental na estrutura celular: algumas células possuem um núcleo distinto (eucariotas) e outras não (procariotas). Herbert Copeland propôs um quarto reino, **Monera**, especificamente para as bactérias sem núcleo.
+* **O Sistema dos Quatro Reinos (1938/1956):** Com a invenção do microscópio electrónico, os biólogos perceberam que existia uma diferença fundamental na estrutura celular: algumas células possuem um núcleo distinto (eucariotas) e outras não (procariotas). Herbert Copeland propôs um quarto reino, **Monera**, especificamente para as bactérias que não possuem núcleo.
 
 * **O Sistema dos 5 Reinos (1969):** Robert Whittaker propôs a separação dos fungos das plantas. Ao contrário das plantas, os fungos não realizam fotossíntese; absorvem nutrientes do meio ambiente e possuem paredes celulares constituídas por quitina, e não por celulose. O sistema de Whittaker estabeleceu cinco reinos: **Monera**, **Protista**, **Fungi**, **Plantae** e **Animalia**.
 

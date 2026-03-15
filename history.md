@@ -52,9 +52,7 @@ The French nobleman Georges-Louis Leclerc, the Comte de Buffon, attempted to man
 
 While Buffon wrote descriptive encyclopedias, the Swedish botanist Carl Linnaeus took a different approach. Linnaeus was facing what some modern biologists have called the very first "bioinformatics crisis". The sheer volume of incoming data from global expeditions threatened to swamp the scientific community with information overload.
 
-To cope with this expanding flow of data, Linnaeus abandoned the traditional method of writing in bound manuscripts. Instead, he pioneered the use of **botanical paper slips**.
-
-This was a novel, highly flexible, and dynamic information technology. By writing species descriptions on individual slips of paper, Linnaeus created an early database that allowed him to easily acquire, store, organize, retrieve, and rearrange taxonomic information without having to rewrite entire books.
+To cope with this expanding flow of data, Linnaeus abandoned the traditional method of writing in bound manuscripts. Instead, he pioneered the use of **botanical paper slips**. By writing species descriptions on individual slips of paper, Linnaeus created an early database that allowed him to easily acquire, store, organize, retrieve, and rearrange taxonomic information without having to rewrite entire books.
 
 ### ***Systema Naturae* and Binomial Nomenclature**
 
