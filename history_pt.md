@@ -305,6 +305,10 @@ Aplicando estas regras, Whittaker criou esta matriz definitiva:
 
 --
 
+![Whittaker's 5 kingdoms](img_new/whittaker.png)
+
+DOI: 10.1126/science.163.3863.150
+
 **A Descoberta das Archaea (1977):**
 
 Antes da década de 70, a genealogia bacteriana era considerada um completo mistério. Em 1977, o microbiologista Carl Woese e o seu colega George Fox revolucionaram a taxonomia ao sequenciar o RNA ribossómico 16S como um "registo fóssil interno". Descobriram que os micróbios produtores de metano não apresentavam as assinaturas padrão de RNA bacteriano, comprovando a existência de uma forma de vida distinta e antiga a que chamaram *Archeabacteria (Arqueobactérias)*. No seu artigo de 1977, propuseram três linhagens principais de descendência: Eubacteria, Archaebacteria e Urcaryota (representando o componente citoplasmático das células eucarióticas). Surpreendentemente, a sua descoberta foi inicialmente recebida com imenso cepticismo e aberta hostilidade. A dicotomia procariontes/eucariontes era um dogma tão profundamente enraizado que a comunidade científica resistia fortemente a uma divisão tripartida da vida.
@@ -313,7 +317,23 @@ Antes da década de 70, a genealogia bacteriana era considerada um completo mist
 
 À medida que as provas genéticas aumentavam, Woese, Otto Kandler e Mark Wheelis reorganizaram formalmente a Árvore da Vida acima do nível do reino em três **Domínios** abrangentes: **Bacteria (Bactérias)**, **Archae (Arqueias)** e **Eukarya (Eucrariontes)**.
 
+![woese paper](img_new/woese.png)
+
+doi: 10.1073/pnas.87.12.4576
+
 **O Sistema dos 6 Reinos:**
+
+Em 1982, Lynn Margulis, em conjunto com Karlene V. Schwartz, publicaram o livro "Five Kingdoms: An Illustrated Guide to the Phyla of Life on Earth", que fazia modificações fundamentais ao sistema de cinco reinos de Whittaker:
+
+* De Protista para Protoctista: Whittaker tinha criado o reino "Protista" focado principalmente em organismos eucariontes unicelulares. Margulis percebeu que isso criava um problema com organismos como as algas castanhas gigantes (kelp). Elas são multicelulares e enormes, mas não têm os tecidos complexos das plantas verdadeiras (não se desenvolvem a partir de um embrião). Margulis ressuscitou o termo Protoctista (originalmente de Copeland) para criar um reino mais inclusivo que abrigasse todos os eucariontes que não se enquadravam estritamente como plantas, animais ou fungos, independentemente de serem unicelulares ou multicelulares.
+* Uma base evolutiva (endossimbiose): Whittaker baseou os seus reinos principalmente na estrutura celular e no modo de nutrição. Margulis pegou nesses reinos e "ligou-os" usando a sua teoria endossimbiótica. Ela mostrou exatamente como o reino Monera (bactérias) deu origem ao reino Protoctista através da fusão de células simples, que por sua vez deram origem aos três reinos superiores (Fungos, Plantas e Animais).
+* Reorganização dos filos: O trabalho de Margulis e Schwartz reorganizou dezenas de filos obscuros que antes não tinham uma "casa" taxonómica clara, catalogando a vida na Terra de uma forma muito mais exaustiva do que Whittaker tinha feito originalmente.
+
+No entanto, esta revisão não incluiu as Archaea (e o consequente sexto reino) pois ainda não estava amplamente aceite a divisão nos três domínios e por não ser o foco do trabalho destes cientistas.
+
+![Margulis' revision](img_new/margulis.png)
+
+<https://doi.org/10.2307/2406516>
 
 A descoberta de Woese dividiu o antigo reino Monera em dois. Hoje, muitos manuais escolares utilizam um modelo de 6 reinos: **Bactérias**, **Arqueias**, **Protoctistas** (ou Protistas), **Fungos**, **Plantas** e **Animalia**. (Nota: Os vírus continuam excluídos destes reinos por serem parasitas intracelulares obrigatórios e acelulares).
 

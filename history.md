@@ -305,6 +305,10 @@ By applying those rules, Whittaker created this definitive matrix:
 
 --
 
+![Whittaker's 5 kingdoms](img_new/whittaker.png)
+
+DOI: 10.1126/science.163.3863.150
+
 **The Discovery of Archaea (1977):**
 
 Prior to the 1970s, bacterial genealogy was considered a hopeless mess. In 1977, microbiologist Carl Woese and his colleague George Fox revolutionized taxonomy by sequencing 16S ribosomal RNA as an "internal fossil record". They discovered that methane-producing microbes entirely lacked standard bacterial RNA signatures, proving the existence of a distinct, ancient form of life they called *Archaebacteria*. In their 1977 paper, they proposed three primary lines of descent: Eubacteria, Archaebacteria, and Urcaryota (representing the cytoplasmic component of eukaryotic cells). Surprisingly, their discovery was initially met with immense skepticism and open hostility. The prokaryote/eukaryote dichotomy was such a deeply entrenched dogma that the scientific community heavily resisted a tripartite division of life.
@@ -313,7 +317,23 @@ Prior to the 1970s, bacterial genealogy was considered a hopeless mess. In 1977,
 
 As genetic evidence mounted, Woese, Otto Kandler, and Mark Wheelis formally reorganized the Tree of Life above the kingdom level into three overarching **Domains**: **Bacteria**, **Archaea**, and **Eukarya**.
 
+![woese paper](img_new/woese.png)
+
+doi: 10.1073/pnas.87.12.4576
+
 **The 6-Kingdom System:**
+
+In 1982, Lynn Margulis, together with Karlene V. Schwartz, published the book "Five Kingdoms: An Illustrated Guide to the Phyla of Life on Earth," which made fundamental modifications to Whittaker's five-kingdom system:
+
+* From Protista to Protoctista: Whittaker had created the kingdom "Protista" focused primarily on unicellular eukaryotic organisms. Margulis realized that this created a problem with organisms like giant brown algae (kelp). They are multicellular and enormous, but they do not have the complex tissues of true plants (they do not develop from an embryo). Margulis resurrected the term Protoctista (originally from Copeland) to create a more inclusive kingdom that would house all eukaryotes that did not strictly fit as plants, animals, or fungi, regardless of whether they were unicellular or multicellular.
+* An evolutionary basis (endosymbiosis): Whittaker based his kingdoms primarily on cell structure and mode of nutrition. Margulis took these kingdoms and "linked" them using her endosymbiotic theory. She showed exactly how the Monera kingdom (bacteria) gave rise to the Protoctista kingdom through the fusion of simple cells, which in turn gave rise to the three higher kingdoms (Fungi, Plants, and Animals).
+* Reorganization of phyla: The work of Margulis and Schwartz reorganized dozens of obscure phyla that previously lacked a clear taxonomic "home," cataloging life on Earth in a much more exhaustive way than Whittaker had originally done.
+
+However, this revision did not include Archaea (and the consequent sixth kingdom) because the division into three domains was not yet widely accepted and because it was not the focus of these scientists' work.
+
+![Margulis' revision](img_new/margulis.png)
+
+<https://doi.org/10.2307/2406516>
 
 Woese's discovery split the old Monera kingdom in two. Today, many textbooks use a 6-Kingdom model: **Bacteria**, **Archaea**, **Protoctista** (or Protista), **Fungi**, **Plantae**, and **Animalia**. (Note: Viruses remain excluded from these kingdoms because they are acellular, obligate intracellular parasites).
 
